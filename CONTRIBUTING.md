@@ -21,7 +21,10 @@ Example:
 ### Commiting code ###
 
 
-### Please commit your code before commiting 
+
+### Please sign off  your code before commiting 
+
+You may require a GPG key for this. You can create one in your git bash by reading these [docs](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-new-gpg-key-to-your-github-account)
 ```
 git add .
 git commit -m "add x" -s
