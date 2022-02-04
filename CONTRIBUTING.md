@@ -25,7 +25,7 @@ Example:
 
 To sign code off , you might need to configure [GPG keys](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-email-preferences/setting-your-commit-email-address)
 
-```
+```bash
 git add .
 git commit -m "add x" -s
 git push
@@ -33,7 +33,7 @@ git push
 
 ### Make a Pull Request
 
-At this point, you should switch back to the `main` branch in your repository, and make sure it is up to date with `main` branch of how-to-dok:
+At this point, you should switch back to the `master` branch in your repository, and make sure it is up to date with `master` branch of how-to-dok:
 
 ```bash
 git remote add upstream git@github.com:dokc/Helm-Charts.git
