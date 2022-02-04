@@ -21,11 +21,13 @@ Example:
 
 ### Commiting code
 
-### Please sign off your code before commiting
+You may require a [GPG key](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-new-gpg-key-to-your-github-account)
 
-To sign code off , you might need to configure [GPG keys](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-email-preferences/setting-your-commit-email-address)
+This will allow you to sign off your commits.
 
-```bash
+### Please commit your code before commiting
+
+```
 git add .
 git commit -m "add x" -s
 git push
@@ -33,7 +35,7 @@ git push
 
 ### Make a Pull Request
 
-At this point, you should switch back to the `master` branch in your repository, and make sure it is up to date with `master` branch of how-to-dok:
+At this point, you should switch back to the `main` branch in your repository, and make sure it is up to date with `main` branch of how-to-dok:
 
 ```bash
 git remote add upstream git@github.com:dokc/Helm-Charts.git
